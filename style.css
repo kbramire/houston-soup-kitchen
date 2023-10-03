@@ -1,0 +1,869 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Public+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Public+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Public+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+/* navigation bar */
+
+#navlinks li>a {
+    font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+    background-color: #54a76d;
+}
+
+.logo{
+    cursor: pointer;
+    width: 48%;
+    height: 48%;
+    margin-bottom: -5px;
+}
+
+#navlinks{
+    list-style: none;
+}
+
+#navlinks li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+#navlinks li a {
+    transition: all 0.3s ease 0s;
+}
+
+#navlinks li a:hover {
+    color: #8363a6;
+}
+
+
+
+
+
+
+/* index pg */
+
+#bannerimage{
+    width: 100%;
+    background-image: url(images/cargill.png);
+    height: 400px;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.box{
+    background-color: white;
+    margin: -250px 164px;
+    padding: 10px;
+    width: 350px;
+    box-sizing: border-box;
+    height: 244px;
+    border-radius: 25px 25px 0 0;
+}
+
+.box h3 {font-family: Lora, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 27px;
+    text-align: center;
+    padding-top: 54px;
+}
+
+.box h4 {font-family: Lora, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+body {background-color: #f5f5f5;}
+
+.buttons {cursor: pointer;
+    list-style: none;
+}
+
+.buttons li {align-items: center;
+    justify-content: space-evenly;
+    display: inline-block;
+    padding: 12px 38px;
+}
+
+.buttons li>a {
+    font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    line-height: 1.4em;
+}
+
+.buttons li a {
+    transition: all 0.3s ease 0s;
+}
+
+.buttons li a:hover {
+    color: #54a76d;
+}
+
+.vl {
+    border-left: 1px solid grey;
+    height: 32px;
+    position:absolute;
+    left: 340px;
+    top: 417px;
+}
+
+.hr {margin: 0;
+}
+
+.hr2 {border-left: 350px solid #427a62;
+    height: 10px;
+    position: relative;
+    left: -10px;
+}
+
+
+.middlesection {padding-top: 350px;
+    padding-left: 170px;
+    padding-bottom: 100px;
+}
+
+h2 {font-family: Lora, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 42px;
+}
+
+.prodes {font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 1.6em;
+    box-sizing: content-box;
+    width: 340px;
+}
+
+.links {font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: -390px;
+    margin-left: 800px;
+    margin-right: 150px;
+    line-height: 1.5em;
+    margin-bottom: 100px;
+}
+
+.links a {font-family: Lora, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 28px;
+    text-decoration: none;
+    color: #54a76d;
+    padding-bottom: 10px;
+}
+
+.links a {
+    transition: all 0.3s ease 0s;
+}
+
+.links a:hover {
+    color: #8363a6;
+}
+
+.numbers {margin: 100px 164px;}
+
+.nmbr {background-image: url(images/Food-bank.png);
+    background-repeat: no-repeat;
+    background-color: #427a62;
+}
+
+
+
+
+
+
+/* footer */
+
+#demobox {
+    background-color: #427a62 ;
+  }
+
+.footer{background-color: #c4c4c4;
+    height: 380px;
+
+}
+
+.footer li {font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    padding-left: 164px;
+    padding-top: 50px;
+}
+
+.logo2 {width: 22%;
+    height: 20%;
+    margin-left: -30px;
+
+}
+
+.feedlogo {cursor: pointer;
+    width: 10%;
+    height: 10%;
+    margin-left: 10px;
+    margin-top: -20px;
+    vertical-align: baseline;
+}
+
+.footermid li {font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    list-style: none;
+    box-sizing: content-box;
+    margin: -83px 550px 0 600px;
+    padding: 10px;
+}
+
+.footermid li>a {text-decoration: none;
+    color: black;
+    transition: all 0.3s ease 0s;
+}
+
+.footermid li a:hover {
+    color: #54a76d;
+}
+
+.footerline {margin: 0 570px 0 600px;
+}
+
+.priv li {font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    box-sizing: content-box;
+    list-style: none;
+    display: block;
+    margin: -180px 164px 0 1090px;
+    padding: 0;
+    line-height: 1.5em;
+}
+
+
+
+
+
+
+/* about */
+
+.greenbox {height: 350px;
+    background-color: #427a62;
+    position: relative;
+}
+
+.greenbox>h1 {font-family: Lora, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 60px;
+    text-decoration: none;
+    color: white;
+    margin: 0 680px 0 164px;
+    padding-top: 100px;
+    text-align: center;
+    letter-spacing: .02em;
+}
+
+.sub {font-family: Lora, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 26px;
+    text-decoration: none;
+    margin-left: 164px;
+    margin-right: 680px;
+    text-align: center ;
+    color: #f5f5f5;
+    line-height: 1.5em;
+}
+
+.headpic{width: 32%;
+    margin-right: 164px;
+    margin-top: -164px;
+    float: right;
+}
+
+.mid {background-color: white;
+    height: 500px;
+}
+
+.midpic{height: 80%;
+    margin-left: 164px;
+    margin-top: 150px;
+}
+
+.mid>h4 {font-family: Lora, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 26px;
+    float: right;
+    margin: 160px 446px 0 0;
+    color: #54a76d;
+}
+
+.p1 {font-family: Lora, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 20px;
+    float: right;
+    margin: -355px 410px 0 0;
+}
+
+.p2 {font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    float: right;
+    margin: -306px 164px 0 842px;
+    line-height: 1.5em;
+}
+
+.whiteout {background-color: white;
+    height: 180px;
+}
+
+
+
+
+
+
+/* programs */
+
+.top {background-color: white;
+    height: 350px;
+}
+
+.top>h1 {font-family: Lora, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    margin: 0 164px;
+    padding-top: 100px;
+    color: #54a76d;
+}
+
+.top>p {font-family: Lora, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 450px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.section1 {background-color: #f5f9f6;
+    height: 500px;
+}
+
+.section1>h4 {font-family: Lora, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 26px;
+    margin: 0 800px 0 164px;
+    padding-top: 50px;
+    color: #54a76d;
+}
+
+.section1>p{font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 0 800px 0 164px;
+    padding-top: 20px;
+    line-height: 1.5em;
+}
+
+.section1 .p1{font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 800px 0 164px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 1.5em;
+}
+
+.section1>ul {font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0 800px 0 164px;
+    padding-top: 30px;
+    line-height: 1.5em;
+    padding-left: 15px;
+}
+
+.sec1img {width: 33%;
+    margin: -380px 164px 0 800px;
+    float: right;
+}
+
+.section2 {background-color: white;
+    height: 500px;
+}
+
+.section2>h4 {font-family: Lora, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 26px;
+    margin: 0 164px 0 800px;
+    padding-top: 150px;
+    color: #54a76d;
+}
+
+.section2>p{font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 0 164px 0 800px;
+    padding-top: 20px;
+    line-height: 1.4em;
+}
+
+.sec2img {margin: -300px 0 0 164px;
+}
+
+.section3 {background-color: #f5f9f6;
+    height: 500px;
+}
+
+.section3>h4 {font-family: Lora, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 26px;
+    margin: 0 800px 0 164px;
+    padding-top: 150px;
+    color: #54a76d;
+}
+
+.section3>p{font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 0 800px 0 164px;
+    padding-top: 20px;
+    line-height: 1.4em;
+}
+
+.sec3img {margin: -265px 164px 0 800px;
+    float: right;
+}
+
+
+
+
+
+
+/* involved */
+
+.involvedheader {height: 350px;
+    width: 500px;
+}
+
+.involved {height: 300px;
+}
+
+.involved>h1 {text-align: center;
+    margin: 0px 480px 20px 480px;
+    font-family: Lora, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 90px;
+    color: #54a76d;
+}
+
+.involved>h3 {text-align: center;
+    margin: 0 480px;
+    font-family: Lora, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.bigrectangle {background-color: white;
+    height: 1500px;
+}
+
+.rectangle1 {margin: 0 164px;
+    padding-top: 70px;
+    overflow: hidden;
+}
+
+.rectangle1>h4 {margin-right: 745px;
+    font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    padding: 20px 0 15px 0;
+    color: #54a76d;
+    overflow: hidden;
+}
+
+.rectangle1>p {margin-right: 745px;
+    font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5em;
+    overflow: hidden;
+}
+
+.rectangle2 {margin: -548px 164px 0 900px;
+    align-content: right;
+}
+
+.rectangle2>h4 {font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    padding: 20px 0 15px 0;
+    color: #54a76d;
+    overflow: hidden;
+}
+
+.rectangle2>p {font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5em;
+    overflow: hidden;
+}
+
+.rectangle3 {margin: 0 164px;
+    padding-top: 170px;
+    overflow: hidden;
+}
+
+.rectangle3>h4 {margin-right: 745px;
+    font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    padding: 20px 0 15px 0;
+    color: #54a76d;
+    overflow: hidden;
+}
+
+.rectangle3>p {margin-right: 745px;
+    font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5em;
+    overflow: hidden;
+}
+
+.rectangle4 {margin: -644px 164px 0 900px;
+    align-content: right;
+}
+
+.rectangle4>h4 {font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    padding: 20px 0 15px 0;
+    color: #54a76d;
+    overflow: hidden;
+}
+
+.rectangle4>p {font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5em;
+    overflow: hidden;
+}
+
+.tefap {margin: 40px 164px 36px 164px;
+    overflow: hidden;
+}
+
+.tefap img {max-width: 300px;
+    overflow: hidden;
+}
+
+.tefap>p{margin: -140px 0 30px 400px;
+    font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.tefap .b1 {color: #54a76d;
+    text-decoration: none;
+    font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.tefap .b2 {color: #54a76d;
+    font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.tefap a {
+    color: #54a76d;
+    transition: all 0.3s ease 0s;
+}
+
+.tefap a:hover {
+    color: #8363a6;
+}
+
+.tefap .b3 {color: #54a76d;
+    font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+
+
+
+
+/* resources */
+
+.greenbox2 {height: 350px;
+    background-color: #427a62;
+    position: relative;
+}
+
+.greenbox2 img {max-width: 410px;
+    margin: 30px 164px;
+    overflow: hidden;
+}
+
+.greenbox2>h1 {font-family: Lora, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 60px;
+    text-decoration: none;
+    color: white;
+    margin: -270px 164px 0 576px;
+    text-align: center;
+    letter-spacing: .02em;
+    padding-top: 20px;
+}
+
+.sub2 {font-family: Lora, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 26px;
+    text-decoration: none;
+    margin-left: 576px;
+    margin-right: 164px;
+    text-align: center ;
+    color: #f5f5f5;
+    line-height: 1.5em;
+}
+
+.resourcesmid {background-color: white;
+    height: 1150px;
+}
+
+.rmid1 img {float: right;
+    margin-right: 164px;
+    overflow: hidden;
+    margin-top: -410px;
+}
+
+.rmid1>h4 {padding-top: 100px;
+    margin: 0 400px 0 164px;
+    overflow: hidden;
+    font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    color: #54a76d;
+    padding-bottom: 25px;
+}
+
+.rmid1>p {margin: 0 400px 0 164px;
+    padding-right: 300px;
+    font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 1.5em;
+    padding-bottom: 150px;
+}
+
+.line {margin: 0 164px;
+}
+
+.rmid2 img {float: right;
+    margin-right: 164px;
+    overflow: hidden;
+    margin-top: -400px;
+}
+
+.rmid2>h4 {padding-top: 100px;
+    margin: 0 400px 0 164px;
+    overflow: hidden;
+    font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    color: #54a76d;
+    padding-bottom: 25px;
+}
+
+.rmid2>p {margin: 0 700px 0 164px;
+    font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 1.5em;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.rmid2 li {font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 1.5em;
+    margin: 0px 700px 0 180px;
+    padding-top: -10px;
+}
+
+.rmid2 .b3 {color: #54a76d;
+    font-family: "Public Sans", Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+/* help */
+
+.rmid2 a {text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+.rmid2 a:hover {
+    color: #8363a6;
+}
+
+
+
+
+
+
+
+
+
+
+/* donate */
+
+.donatehead h1 { margin: 0 164px;
+    margin-top: -250px;
+    font-family: Lora, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #54a76d;
+    padding-bottom: 10px;
+}
+
+.donatehead h3 {margin: 0 164px;
+    font-family: Lora, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-right: 890px;
+    line-height: 1.4em;
+}
+
+.donatehead img {max-width: 100%;
+    height: 350px;
+}
+
+
+
+
+
+
+/* donate box */
+
+.container1 {background: white;
+	max-width: 800px;
+	min-height: 400px;
+	display: flex;
+	justify-content:space-between;
+	align-items: flex-start;
+    outline: 2px solid #ccc; background-color: white;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    margin-top: 200px;
+    padding: 5px 10px;
+    margin-left: 320px;
+    margin-bottom: 120px;
+}
+
+.left{flex-basis: 50%;
+}
+
+.right{flex-basis: 50%;
+}
+
+form{padding: 1rem;
+}
+
+.left>h3{margin-top: 1rem;
+    padding-left: 15px;
+    color: #282727;
+    font-family: Lora, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    letter-spacing: .05rem;
+}
+
+.right>h3{margin-top: 1rem;
+    padding-left: 15px;
+    color: #282727;
+    font-family: Lora, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    letter-spacing: .07rem;
+}
+
+form input[type="text"]{
+	width: 100%;
+	padding: 0.5rem 0.7rem;
+	margin: 0.5rem 0;
+	outline: none;
+}
+
+#zip{display: flex;
+	margin-top: 0.5rem;
+}
+
+#zip select{padding: 0.5rem 0.7rem;
+}
+
+#zip input[type="number"]{
+	padding: 0.5rem 0.7rem;
+}
+
+#zip input[type="text"]{
+    margin-right: 5px;
+}
+
+input[type="submit"]{
+	width: 100%;
+	padding: 0.7rem 1.5rem;
+	background: #54a76d;
+	color: white;
+	border: none;
+	outline: none;
+	margin-top: 1rem;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover{
+	background: #8363a6;
+    transition: all 0.3s ease 0s;
+}
+
+
+/* to see
+
+outline: 2px dashed green; background-color: #C6DE89;
+
+
+overflow: hidden;
+
+*/
