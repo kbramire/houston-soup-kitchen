@@ -188,7 +188,7 @@ h2 {font-family: Lora, Georgia, 'Times New Roman', Times, serif;
     color: #8363a6;
 }
 
-.numbers {margin: 104px 164px;}
+.numbers {margin: 90px 164px;}
 
 .nmbr {background-image: url(images/Food-bank.png);
     background-repeat: no-repeat;
@@ -468,7 +468,6 @@ h2 {font-family: Lora, Georgia, 'Times New Roman', Times, serif;
 
 .involvedheader {height: 350px;
     width: 500px;
-    object-fit: cover;
 }
 
 .involved {height: 300px;
